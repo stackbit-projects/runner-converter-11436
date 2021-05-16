@@ -13,7 +13,7 @@ sitemap:
   <label for="miles1">First name:</label><br>
   <input type="text" id="miles1" name="miles1"><br>
   <label for="timemins">Last name:</label><br>
-  <input type="text" id="lname" name="lname">
+  <input type="text" id="timemins" name="timemins">
 </form>
 
 Theme by Riti Jain: [Pudhina Fresh](https://github.com/ritijjain/pudhina-fresh).
