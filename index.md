@@ -9,7 +9,7 @@ sitemap:
 ---
 <p id="describe-text">Ever wanted to see how long it took you to run 1 mile if you ran 1.2 miles? This is a converter for miles, metres and seconds for runner.</p>
 <br>
-<form>
+<p><form>
   <label for="miles1">How many miles did you run?</label><br>
   <input type="text" id="miles1" name="miles1"><br>
   <label for="timemins1">How many mins?</label><br>
@@ -18,7 +18,7 @@ sitemap:
   <input type="text" id="timesecs1" name="timesecs1">
   <input type="text" id="miles2" name="miles2"><br>
   <label for="miles2">How many miles are you trying to calculate a time for?</label>
-</form>
+</form></p>
 <br>
 
 Theme by Riti Jain: [Pudhina Fresh](https://github.com/ritijjain/pudhina-fresh).
