@@ -20,10 +20,20 @@ sitemap:
   <label for="miles2">How many miles are you trying to calculate a time for?</label>
 </form></p>
 
-form(action='/save')
-  input(name='name')
-  input(name='email')
-  input(type='submit', value='Save')
+<form name="submitMeme" action="/thanks.html">
+  <p>
+    <label>Name: <input type="text" name="name" size="40"></label>
+  </p>
+  <p>
+    <label>Email: <input type="text" name="email" size="40"></label>
+  </p>
+  <p>
+    <label>Meme URL: <input type="text" name="memeurl" size="40"></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
 <br>
 
 Theme by Riti Jain: [Pudhina Fresh](https://github.com/ritijjain/pudhina-fresh).
