@@ -12,10 +12,10 @@ sitemap:
 <form>
   <label for="miles1">How many miles did you run?</label><br>
   <input type="text" id="miles1" name="miles1"><br>
-  <label for="timemins">How many mins?</label><br>
-  <input type="text" id="timemins" name="timemins">
-  <label for="timesecs">How many secs?</label><br>
-  <input type="text" id="timesecs" name="timesecs">
+  <label for="timemins1">How many mins?</label><br>
+  <input type="text" id="timemins1" name="timemins1">
+  <label for="timesecs1">How many secs?</label><br>
+  <input type="text" id="timesecs1" name="timesecs1">
 </form>
 
 Theme by Riti Jain: [Pudhina Fresh](https://github.com/ritijjain/pudhina-fresh).
