@@ -10,8 +10,8 @@ sitemap:
 <p id="describe-text">Ever wanted to see how long it took you to run 1 mile if you ran 1.2 miles? This is a converter for miles, metres and seconds for runner.</p>
 <br>
 <form>
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
+  <label for="miles1">First name:</label><br>
+  <input type="text" id="miles1" name="fname"><br>
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname">
 </form>
