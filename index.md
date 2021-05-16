@@ -17,8 +17,9 @@ sitemap:
   <label for="timesecs1">How many secs?</label><br>
   <input type="text" id="timesecs1" name="timesecs1">
   <input type="text" id="miles2" name="miles2"><br>
-  <label for="miles2">How many miles are you trying to calculate a time for?</label><br>
+  <label for="miles2">How many miles are you trying to calculate a time for?</label>
 </form>
+<br>
 
 Theme by Riti Jain: [Pudhina Fresh](https://github.com/ritijjain/pudhina-fresh).
 
