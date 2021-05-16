@@ -12,7 +12,7 @@ sitemap:
 <form>
   <label for="miles1">First name:</label><br>
   <input type="text" id="miles1" name="miles1"><br>
-  <label for="lname">Last name:</label><br>
+  <label for="timemins">Last name:</label><br>
   <input type="text" id="lname" name="lname">
 </form>
 
