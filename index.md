@@ -19,6 +19,11 @@ sitemap:
   <input type="text" id="miles2" name="miles2"><br>
   <label for="miles2">How many miles are you trying to calculate a time for?</label>
 </form></p>
+
+form(action='/save')
+  input(name='name')
+  input(name='email')
+  input(type='submit', value='Save')
 <br>
 
 Theme by Riti Jain: [Pudhina Fresh](https://github.com/ritijjain/pudhina-fresh).
