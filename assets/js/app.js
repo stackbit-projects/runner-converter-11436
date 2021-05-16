@@ -44,4 +44,4 @@ function convertSeconds(d){
   return +minutes+ " min(s) and " +seconds+ " sec(s)";
 }
 
-converter(1.87,22,0,2);
+//converter(1.87,22,0,2);
