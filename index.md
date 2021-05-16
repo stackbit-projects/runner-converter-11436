@@ -11,7 +11,7 @@ sitemap:
 <br>
 This is the index page, describe yourself in few sentences here. Perhaps talk about what you do for living and what you do in your free time. Maybe even leave an [email@address.com](#) or a link to your [resume](#).
 
-Theme: [Pudhina Fresh](https://github.com/ritijjain/pudhina-fresh).
+Theme by Riti Jain: [Pudhina Fresh](https://github.com/ritijjain/pudhina-fresh).
 
 <br>
 <br>
