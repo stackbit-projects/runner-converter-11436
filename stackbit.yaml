@@ -1,0 +1,151 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+publishDir: _site
+dataDir: _data
+pagesDir: ''
+models:
+  post:
+    type: page
+    label: Post
+    folder: _posts
+    match:
+      - 2020-04-01-updated.md
+      - 2020-04-02-sample.md
+      - 2020-07-01-docs.md
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: date
+        name: date
+        label: Date
+      - type: date
+        name: updated
+        label: Updated
+      - type: list
+        name: tags
+        label: Tags
+        items:
+          type: string
+      - type: image
+        name: splash_img_source
+        label: Splash Img Source
+      - type: markdown
+        name: splash_img_caption
+        label: Splash Img Caption
+      - type: boolean
+        name: pin
+        label: Pin
+  post_1:
+    type: page
+    label: Post 1
+    folder: _posts
+    match:
+      - 2020-12-15-long-title.md
+      - 2021-02-04-styles.md
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: date
+        name: date
+        label: Date
+      - type: string
+        name: tags
+        label: Tags
+      - type: image
+        name: splash_img_source
+        label: Splash Img Source
+      - type: markdown
+        name: splash_img_caption
+        label: Splash Img Caption
+      - type: date
+        name: updated
+        label: Updated
+      - type: object
+        name: author
+        label: Author
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: homepage
+            label: Homepage
+      - type: boolean
+        name: pin
+        label: Pin
+      - type: boolean
+        name: listed
+        label: Listed
+      - type: boolean
+        name: index
+        label: Index
+  redirect:
+    type: page
+    label: Redirect
+    folder: pages/redirects
+    match: '*'
+    fields:
+      - type: string
+        name: permalink
+        label: Permalink
+      - type: string
+        name: redirect_link
+        label: Redirect Link
+  page_1:
+    type: page
+    label: Page 1
+    match: '*'
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: boolean
+        name: full_logo
+        label: Full Logo
+      - type: string
+        name: description
+        label: Description
+      - type: object
+        name: sitemap
+        label: Sitemap
+        fields:
+          - type: number
+            name: priority
+            label: Priority
+            subtype: int
+  projects:
+    type: data
+    label: Projects
+    file: projects.yml
+    isList: true
+    items:
+      type: object
+      fields:
+        - type: string
+          name: name
+          label: Name
+        - type: string
+          name: id
+          label: Id
+        - type: image
+          name: img_src
+          label: Img Src
+        - type: markdown
+          name: description_less
+          label: Description Less
+        - type: markdown
+          name: description_more
+          label: Description More
+        - type: list
+          name: tags
+          label: Tags
+          items:
+            type: string
