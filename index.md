@@ -17,7 +17,7 @@ sitemap:
   <label for="timesecs1">How many secs?</label><br>
   <input type="text" id="timesecs1" name="timesecs1">
   <input type="text" id="miles2" name="miles2"><br>
-  <label for="timemins1">How many mins?</label><br>
+  <label for="miles2">How many mins?</label><br>
 </form>
 
 Theme by Riti Jain: [Pudhina Fresh](https://github.com/ritijjain/pudhina-fresh).
